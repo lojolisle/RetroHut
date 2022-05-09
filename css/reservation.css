@@ -1,0 +1,65 @@
+/* --------------- Reservations -----------------------------*/
+
+.reservation  h1, p {
+    color: #00FFFF;
+    padding : 10px;
+    margin:  10px 70px;
+}
+.reservation form {
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+}
+.reservation .form-input {
+    /* width: 700px; */
+    width: 80%;
+    height: 40px;
+    border: solid 2px #00FFFF;
+    background-color: #dfd0d0; /* rgb(223, 208, 208)*/
+   
+    /* box-shadow: 0px 0px 15px  #F5449E; */
+}
+
+.reservation .form-input:focus { 
+    outline:none;
+    box-shadow:0 0 20px #F5449E;
+}
+
+
+.reservation #submit {
+    background: #F5449E;
+    padding: 10px 20px;
+    border:solid 2px #00FFFF ;
+    border-radius: 15px;
+}
+.reservation #submit:hover {
+    background-color: #1612F8;
+    color: white;
+}
+.reservation #success-msg {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #00FFFF;
+    
+}
+.reservation-img {
+    width: 60%;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow:
+    0 0 6px 3px #fff,
+    0 0 10px 6px #f0f,
+    0 0 14px 9px rgb(174, 0, 255);
+}
+
+.contentPara {
+    margin: 0 60px;
+    padding: 0 45px;
+    text-align: left;
+}
+
+
+.reservation .error {
+    border: 3px solid red;
+}
+/* ------------------------------------------------ */

@@ -1,0 +1,44 @@
+
+/* --------------------ABOUT US -------------------------- */
+
+
+#read_more {
+    display: none;
+}
+#read_more_btn {
+    background: #F5449E;
+    padding: 10px 20px;
+    border:solid 2px #00FFFF ;
+    border-radius: 15px;
+}
+
+#read_more_btn:hover {
+    background-color: #1612F8;
+    color: white;
+}
+.about_us {
+    padding: 10px;
+    background-color: #0D084A;
+}
+.about_us  > h2 {
+    color: #00FFFF;
+}
+
+.contentPara > p {
+    color: #00FFFF;
+}
+.about-img {
+    width: 60%;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow:
+    0 0 6px 3px #fff,
+    0 0 10px 6px #f0f,
+    0 0 14px 9px rgb(174, 0, 255);
+}
+.contentPara {
+    margin: 0 60px;
+    padding: 0 45px;
+    text-align: left;
+}
+/* ------------------------------------------------------- */

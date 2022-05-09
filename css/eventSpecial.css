@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Yuji+Syuku&display=swap');
+
+main{
+    display: flex;
+    justify-content:space-around;
+    padding: 2em;
+    font-family:'Yuji Syuku', serif;
+    color: #F5449E;
+    background-color: #0D084A;
+    /* background-image: url("../image/retro-sunset.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+#daily-info{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border: 6px solid #A938FD;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    padding: 2em;
+    background-color: #1D0939;
+    margin-right: 1.5em;
+    box-shadow:
+    0 0 6px 3px #fff,  
+    0 0 10px 6px #f0f,
+    0 0 14px 9px rgb(174, 0, 255); 
+}
+
+h2{
+    font-size: 45px;
+    font-family: "VT323", monospace;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 40px;
+    font-family: "VT323", monospace;
+    font-weight: lighter;
+}
+
+h5{
+    font-size: 30px;
+    font-family: "VT323", monospace;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 17px;
+    color: #fa73b9
+}
+
+#upcoming-events{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border: 6px solid #1612F8;   
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    padding: 2em;
+    background-color: #1D0939;
+    box-shadow:
+    0 0 6px 3px #fff,  
+    0 0 10px 6px rgb(17, 0, 255), 
+    0 0 14px 9px #0ff; 
+}
+.event-title{
+    margin-bottom: 2px;
+}
+.event-desc{
+    margin-top: 0;
+}
+
+#event-registration{
+    display: flex; 
+    flex-direction: column;
+    border: 3px solid #781E56;
+    padding: 1em;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#event-registration.hidden{
+    display: none;
+}
+
+#rsvp-submit{
+    font-family: "VT323", monospace;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(174, 0, 255);
+    border: 4px solid rgb(162, 0, 255);
+    border-radius: 3px;
+
+    /* box-shadow:
+    0 0 6px 3px #fff,  
+    0 0 10px 6px rgb(234, 0, 255), 
+    0 0 14px 9px rgb(162, 0, 255); */
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+#rsvp-submit:hover{
+    border: 4px solid #fa73b9;
+    color: rgb(0, 217, 255);
+    cursor: pointer;
+}
+
+#rsvp-confirm.shown{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #781E56;
+    padding: 1em;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#rsvp-event{
+    color: rgb(0, 217, 255);
+}
+
+.hidden{
+    display: none;
+}
+
+.event-option{
+    font-family: "VT323", monospace;
+    font-size: 15px;
+}
+
+#event-image{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgb(174, 0, 255);
+}
+
+#name,#phone-num,#event-options{
+    background-color: #A9D4EF;
+}
+
+/* M E D I A      Q U E R I E S*/
+@media screen and (max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+}
+
